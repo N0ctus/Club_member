@@ -1,0 +1,51 @@
+{# @var ea \EasyCorp\Bundle\EasyAdminBundle\Context\AdminContext #}
+{% extends '@EasyAdmin/page/content.html.twig' %}
+
+{% block page_title 'Welcome Hello Hello' %}
+
+{% block page_content %}
+    <style>
+        p { max-width: 600px; }
+    </style>
+    <p>
+        <strong>Pour creer mon Base de donner </strong>
+    </p>
+    <p>
+       J'ai  Utiliser :
+    </p>
+     <p> 
+          -defini  2 Entity Members ,Competitions
+          *avec une relation manytomany *
+          -car une competition peut avoir plusieur memberes ,un membre peut ajouter das plusieur competitions
+    </p>
+    <p>
+        <strong>Pour creer mon dashboard</strong>
+    </p>
+
+    <p>
+       J'ai bien Utiliser :
+    </p>
+
+    <p> 
+           Frame work  API_PLATFORM :<a href="https://api-platform.com/docs">Visit Api-platform Doc</a>
+    </p>
+    <p> 
+           Pour les Micro services to check the ENDPOINTS
+            you can check by taping localhost/api
+    </p>
+    <p> 
+           EasyAdminBundle:<a href="https://symfony.com/doc/current/bundles/EasyAdminBundle/index.html">Visit EadyAdmin_Bundle Doc</a>
+    </p>
+    <p> 
+         EasyAdmin bundle Pour la creation les view du CRUD
+    </p>
+    <p> 
+    Login Forme : <a href="https://symfony.com/doc/current/security/form_login_setup.html">Visit Build a Login Form Doc</a>
+    </p>
+    <p> 
+         Pour generer la page Login
+    </p>
+
+
+    </pre>
+{% endblock %}
